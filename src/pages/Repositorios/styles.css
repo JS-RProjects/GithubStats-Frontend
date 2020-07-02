@@ -1,0 +1,115 @@
+.principal-repo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.repos-div {
+    background: #393f47;
+    width: 90%;
+    height: 90%;
+    border-radius: 2vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-introduction {
+    background: #2e333a;
+    height: 100%;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+
+.profile-introduction img {
+    width: 55%;
+    height: 36%;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin: 1.3vw;
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+
+.profile-description {
+    font-size: 1.5vw;
+    width: 80%;
+    text-align: center;
+}
+
+.repos {
+    max-height: 100%;
+    overflow: auto;
+    border: 0.7vh solid #505863;
+    border-radius: 1.5vw;
+    width: 65%;
+}
+
+.repo {
+    height: 58vh;
+    border-bottom: 0.5vh solid #5a6370;
+    padding: 4vh;
+}
+
+::-webkit-scrollbar {
+    width: 1.5vh;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #59626e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #9ca5b4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #838b97;
+}
+
+.name-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2vw;
+    border-bottom: 0.4vh solid #FFF;
+}
+
+.repo-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.repo-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repo-detail {
+    margin: 0.5vw;
+    margin-top: 3vw;
+    padding: 1vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5vw;
+}

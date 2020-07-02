@@ -1,0 +1,90 @@
+.principal-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    color: #FFF;
+}
+.profile-div {
+    background: #393f47;
+    width: 90%;
+    height: 90%;
+    margin: 1%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2vw;
+}
+
+.profile-introduction {
+    background: #2e333a;
+    height: 100%;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+
+.profile-introduction img {
+    width: 55%;
+    height: 36%;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin: 1.3vw;
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+
+.profile-description {
+    font-size: 1.5vw;
+    width: 80%;
+    text-align: center;
+}
+
+.profile-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.profile-detail p {
+    font-size: 1.4vw;
+}
+
+.detail-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 5vw;
+    width: 100%;
+}
+
+.profile-details {
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-detail-icon {
+    margin-right: 1vw;
+}
+
+.profile-introduction a:hover {
+    border-bottom: 0.6vh solid #FFF;
+}
